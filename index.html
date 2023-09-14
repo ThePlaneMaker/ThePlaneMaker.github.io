@@ -28,13 +28,29 @@
     
     <h2>Skills</h2>
     <ul>
-        <li>HTML/CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
+        <li>Wasting time</li>
     </ul>
     
     <h2>GitHub Profile</h2>
     <p>You can check out my GitHub profile <a href="https://github.com/ThePlaneMaker">here</a>.</p>
+    
+
+    <!-- Interactive Button -->
+    <button class="interactive-button" onclick="showMessage()">Click Me</button>
+    
+    <!-- Message Div (Initially Hidden) -->
+    <div id="message" style="display: none;">
+        <p>Wow! You clicked the button.</p>
+    </div>
+
+    <!-- JavaScript to Show Message -->
+    <script>
+        function showMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+    </script>
+    <footer>
+        <button><a href="17-fluidSim.html">Go to Fluid Sim</a></button>
+    </footer>    
 </body>
 </html>
